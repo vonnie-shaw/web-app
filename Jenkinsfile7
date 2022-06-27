@@ -21,22 +21,4 @@ pipeline{
 		}
 		}
 		}
-		*/
-		stage("4. Code quality"){
-			steps{
-				sh "mvn sonar:sonar"
-			}
-		}
-		stage("5. Artifactory"){
-			steps{
-				sh "mvn deploy"
-			}
-		}
-		stage("6. Deploy to Tomcat"){
-			steps{
-				deploy adapters: [tomcat9(credentialsId: 'cc2aecc8-23d6-4fba-beb0-7ae59c2a9dbf', path: '', url: 'http://34.219.87.155:8080/')], contextPath: null, war: 'target/*.war'
-			}
-		}
-		}
-}
-/*
+		
