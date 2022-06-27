@@ -19,6 +19,7 @@ pipeline{
 				sh "mvn package"
 			}
 		}
+		*/
 		stage("4. Code quality"){
 			steps{
 				sh "mvn sonar:sonar"
@@ -36,3 +37,4 @@ pipeline{
 		}
 	}
 }
+/*
