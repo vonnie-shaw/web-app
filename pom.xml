@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://172.31.9.6:8081/repository/diogo-app-release/</url>
+	      <url>http://172.31.9.6:8081/repository/Yvonne-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://172.31.9.6:8081/repository/diogo-app-snapshot/</url>
+	      <url>http://172.31.9.6:8081/repository/Yvonne-app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
