@@ -19,6 +19,8 @@ pipeline{
 				sh "mvn package"
 			}
 		}
+		}
+		}
 		*/
 		stage("4. Code quality"){
 			steps{
@@ -35,6 +37,6 @@ pipeline{
 				deploy adapters: [tomcat9(credentialsId: 'cc2aecc8-23d6-4fba-beb0-7ae59c2a9dbf', path: '', url: 'http://34.219.87.155:8080/')], contextPath: null, war: 'target/*.war'
 			}
 		}
-		/*
-	}
+		}
 }
+/*
