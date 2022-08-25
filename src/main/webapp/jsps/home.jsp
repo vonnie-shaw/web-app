@@ -36,7 +36,6 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
                 Coffee meets Bagel, 
 		Calgary, Alberta, Canada
 		<br>
-		<a href="mailto:info@acadalearning">Mail to Acada Learning</a>
 	</span>
 </div>
 <hr>
